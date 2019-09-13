@@ -1,0 +1,3 @@
+Number of mantissa digits is: 24 
+Unit roundoff if chopping: 2^(-23) 
+Unit roundoff if rounding: 2^(-24) 
