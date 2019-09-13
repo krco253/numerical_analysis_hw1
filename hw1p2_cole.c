@@ -20,13 +20,16 @@ if(n==1){
 //main function
 int main(){
 float computed_value = 0; //initialize computed value
-
+float bad_algorithm = 0;
 printf("My algorithm results: \n"); //"Good" algorithm results
 for(int k = 2; k < 7; k++){ //for k = 2...6
 printf("k = %d", k); //print k value
 //calculate using "good" algorithm
 computed_value = pow(10,-2*k) * ((1/k) + (1/(factorial(k+2))));
-printf(", computed value = %.15lf \n", computed_value); //print computed value
+printf(", computed value = %.15lf", computed_value); //print computed value
+//"bad" algorithm
+bad_algorithm = (pow(10,-2*k)/k) + (pow(10,-2*k)/factorial(k+2));
+printf(", bad algorithm = %.15lf \n", bad_algorithm);
 }
 
 return 0;
