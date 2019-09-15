@@ -1,6 +1,6 @@
 My algorithm results: 
-k = 2, computed value = 0.000004166666713, bad algorithm = 0.000054166666814 
-k = 3, computed value = 0.000000008333334, bad algorithm = 0.000000341666663 
-k = 4, computed value = 0.000000000013889, bad algorithm = 0.000000002513889 
-k = 5, computed value = 0.000000000000020, bad algorithm = 0.000000000020020 
-k = 6, computed value = 0.000000000000000, bad algorithm = 0.000000000000167 
+k = 2, good algorithm = 0.000004166666713, straightforward algorithm = 0.598470032215118 
+k = 3, good algorithm = 0.000000008333334, straightforward algorithm = -0.813064038753510 
+k = 4, good algorithm = 0.000000000013889, straightforward algorithm = 0.307456463575363 
+k = 5, good algorithm = 0.000000000000020, straightforward algorithm = -0.035518538206816 
+k = 6, good algorithm = 0.000000000000000, straightforward algorithm = 0.350021123886108 
